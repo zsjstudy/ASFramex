@@ -1,0 +1,70 @@
+package cn.appoa.afrefresh.fragment;
+
+import android.view.View;
+import android.widget.ScrollView;
+
+import androidx.annotation.LayoutRes;
+import androidx.annotation.Nullable;
+import androidx.core.widget.NestedScrollView;
+
+/**
+ * NestedScrollView下拉刷新
+ */
+public abstract class PullToRefreshNestedScrollViewFragment extends PullToRefreshBaseFragment<NestedScrollView> {
+
+    @Override
+    public NestedScrollView onCreateRefreshView() {
+        return new NestedScrollView(getActivity());
+    }
+
+    @Override
+    public boolean setRefreshMode() {
+        return true;
+    }
+
+    @Override
+    public void initRefreshView() {
+        initRefreshContentView(mView);
+    }
+
+    @Override
+    public void toScrollTop() {
+        if (refreshView != null)
+            refreshView.scrollTo(0, 0);
+    }
+
+    /**
+     * 设置内容
+     *
+     * @param layoutResID
+     */
+    public void setRefreshContentView(@LayoutRes int layoutResID) {
+        View view = View.inflate(getActivity(), layoutResID, null);
+        setRefreshContentView(view);
+    }
+
+    /**
+     * 内容
+     */
+    protected View mView;
+
+    /**
+     * 设置内容
+     *
+     * @param view
+     */
+    public void setRefreshContentView(@Nullable View view) {
+        if (view == null || refreshView == null)
+            return;
+        mView = view;
+        refreshView.removeAllViews();
+        refreshView.addView(view, new ScrollView.LayoutParams(-1, -1));
+    }
+
+    /**
+     * 初始化控件
+     *
+     * @param view
+     */
+    public abstract void initRefreshContentView(View view);
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 高度(标题栏默认) -->
+    <dimen name="height_default_titlebar">48dp</dimen>
+    <!-- 轮播点宽高 -->
+    <dimen name="point_width_height">8dp</dimen>
+</resources>

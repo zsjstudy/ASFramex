@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 默认标题栏背景色 -->
+    <color name="colorDefaultTitlebarBg">#ffffff</color>
+    <!-- 默认标题栏标题颜色 -->
+    <color name="colorDefaultTitlebarTextTitle">#333333</color>
+    <!-- 默认标题栏菜单颜色 -->
+    <color name="colorDefaultTitlebarTextMenu">#333333</color>
+    <!-- 轮播点(未选中) -->
+    <color name="colorPointNormal">#50000000</color>
+    <!-- 轮播点(选中) -->
+    <color name="colorPointSelected">#ffffff</color>
+</resources>

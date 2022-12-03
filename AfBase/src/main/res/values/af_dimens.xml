@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体 -->
+    <dimen name="af_text_tiny">5.76sp</dimen>
+    <dimen name="af_text_bit">7.68sp</dimen>
+    <dimen name="af_text_little">9.60sp</dimen>
+    <dimen name="af_text_small">11.52sp</dimen>
+    <dimen name="af_text_normal">13.44sp</dimen>
+    <dimen name="af_text_big">15.36sp</dimen>
+    <dimen name="af_text_large">17.28sp</dimen>
+    <dimen name="af_text_huge">19.20sp</dimen>
+    <dimen name="af_text_great">21.12sp</dimen>
+    <!-- 间距 -->
+    <dimen name="af_padding_tiny">2.40dp</dimen>
+    <dimen name="af_padding_bit">4.80dp</dimen>
+    <dimen name="af_padding_little">7.20dp</dimen>
+    <dimen name="af_padding_small">9.60dp</dimen>
+    <dimen name="af_padding_normal">12.00dp</dimen>
+    <dimen name="af_padding_big">14.40dp</dimen>
+    <dimen name="af_padding_large">16.80dp</dimen>
+    <dimen name="af_padding_huge">19.20dp</dimen>
+    <dimen name="af_padding_great">21.60dp</dimen>
+    <!-- 高度 -->
+    <dimen name="af_height_tiny">24.00dp</dimen>
+    <dimen name="af_height_bit">28.80dp</dimen>
+    <dimen name="af_height_little">33.60dp</dimen>
+    <dimen name="af_height_small">38.40dp</dimen>
+    <dimen name="af_height_normal">43.20dp</dimen>
+    <dimen name="af_height_big">48.00dp</dimen>
+    <dimen name="af_height_large">52.80dp</dimen>
+    <dimen name="af_height_huge">57.60dp</dimen>
+    <dimen name="af_height_great">62.40dp</dimen>
+    <!-- 其他 -->
+    <dimen name="af_height_status_bar">19.20dp</dimen>
+    <dimen name="af_height_title_bar">42.24dp</dimen>
+    <dimen name="af_height_navigation_bar">47.04dp</dimen>
+    <dimen name="af_height_divider">0.48dp</dimen>
+    <dimen name="af_height_divider_large">0.96dp</dimen>
+    <dimen name="af_height_50">48dp</dimen>
+    <dimen name="af_height_100">96dp</dimen>
+    <dimen name="af_height_120">115.2dp</dimen>
+    <dimen name="af_height_160">153.6dp</dimen>
+    <dimen name="af_height_200">192dp</dimen>
+
+</resources>
